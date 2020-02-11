@@ -68,7 +68,7 @@ public class CalculatorUI extends Frame{
 
             try{
                 double operand1 = Double.parseDouble(inputField1.getText());
-                double operand2 = Double.parseDouble(inputField1.getText());
+                double operand2 = Double.parseDouble(inputField2.getText());
 
                 calculator = new Calculator(operand1, operand2);
 
